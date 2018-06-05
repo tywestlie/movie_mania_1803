@@ -7,8 +7,10 @@ describe 'visitor visits movie show page' do
     genre2 = Genre.create(name: 'romance')
     movie1 = genre1.movies.create(title: 'Movie One', description: 'great film', rating: 5, director_id: director1.id)
     a = MovieGenre.create(movie_id: movie1.id, genre_id: genre2.id)
+    # require 'pry'; binding.pry
 
-    visit movie_path(movie1)
+    visit movie_path(movie1.slug)
+
 
     expect(page).to have_content(genre1.name)
     expect(page).to have_content(genre2.name)
