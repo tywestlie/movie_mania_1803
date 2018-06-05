@@ -3,9 +3,11 @@
 <p>Synopsis of the movie:</p>
 <p><%= @movie.description %></p>
 
+<p>Rating: <%= @movie.rating %>
+
 <p>Directed by: <%= @movie.director.name %></p>
 
-Movie Genres:
+"Genres for this Movie:"
 <% @genres.each do |genre| %>
   <%= genre.name %>
 <% end %>
