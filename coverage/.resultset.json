@@ -518,6 +518,23 @@
         null,
         null
       ],
+      "/Users/tywest/turing/2module/challenges/movie_mania_1803/spec/features/visitor/visitor_sees_genre_show_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/tywest/turing/2module/challenges/movie_mania_1803/spec/features/visitor/visitor_visits_genre_index_spec.rb": [
         1,
         null,
@@ -540,6 +557,17 @@
         null,
         1,
         1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
         1,
         null,
         null
@@ -617,11 +645,11 @@
         1,
         null,
         1,
-        55,
+        58,
         null,
         null,
         1,
-        41,
+        44,
         null,
         null,
         1,
@@ -685,7 +713,7 @@
         1,
         null,
         1,
-        13,
+        15,
         null,
         null
       ],
@@ -734,18 +762,18 @@
         1,
         null,
         1,
-        52,
+        55,
         null,
         null,
         1,
-        38,
-        38,
+        42,
+        42,
         4,
         null,
         null,
         null,
         1,
-        7,
+        8,
         null,
         null
       ],
@@ -759,7 +787,12 @@
         1,
         null,
         1,
-        5,
+        6,
+        null,
+        null,
+        1,
+        2,
+        2,
         null,
         null
       ],
@@ -943,8 +976,14 @@
         2,
         null,
         null
+      ],
+      "/Users/tywest/turing/2module/challenges/movie_mania_1803/app/models/movie_genre.rb": [
+        1,
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1528214318
+    "timestamp": 1528215388
   }
 }
