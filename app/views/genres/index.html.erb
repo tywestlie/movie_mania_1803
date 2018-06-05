@@ -3,6 +3,8 @@
 <%= link_to 'Create New Genre', new_admin_genre_path %>
 <% end %>
 
+
+
 <% @genres.each do |genre| %>
   <h2><%= link_to genre.name, genre_path(genre) %></h2>
   <% end %>

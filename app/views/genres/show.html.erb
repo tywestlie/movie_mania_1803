@@ -4,3 +4,5 @@ Movies:
   <% @movies.each do |movie| %>
   <%= movie.title %>
   <% end %>
+
+average rating for films in this genre: <%= @genre.average_rating %>

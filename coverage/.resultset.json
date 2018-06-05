@@ -533,6 +533,21 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/tywest/turing/2module/challenges/movie_mania_1803/spec/features/visitor/visitor_visits_genre_index_spec.rb": [
@@ -679,11 +694,11 @@
         1,
         null,
         1,
-        60,
+        61,
         null,
         null,
         1,
-        46,
+        47,
         null,
         null,
         1,
@@ -717,6 +732,32 @@
         1,
         null
       ],
+      "/Users/tywest/turing/2module/challenges/movie_mania_1803/spec/models/genre_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/tywest/turing/2module/challenges/movie_mania_1803/app/models/genre.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        4,
+        null,
+        null
+      ],
       "/Users/tywest/turing/2module/challenges/movie_mania_1803/spec/models/movie_spec.rb": [
         1,
         null,
@@ -747,7 +788,7 @@
         1,
         null,
         1,
-        18,
+        22,
         null,
         null
       ],
@@ -796,12 +837,12 @@
         1,
         null,
         1,
-        57,
+        58,
         null,
         null,
         1,
-        44,
-        44,
+        45,
+        45,
         4,
         null,
         null,
@@ -809,12 +850,6 @@
         1,
         8,
         null,
-        null
-      ],
-      "/Users/tywest/turing/2module/challenges/movie_mania_1803/app/models/genre.rb": [
-        1,
-        1,
-        1,
         null
       ],
       "/Users/tywest/turing/2module/challenges/movie_mania_1803/app/controllers/genres_controller.rb": [
@@ -825,8 +860,8 @@
         null,
         null,
         1,
-        2,
-        2,
+        3,
+        3,
         null,
         null
       ],
@@ -1020,6 +1055,6 @@
         null
       ]
     },
-    "timestamp": 1528216582
+    "timestamp": 1528217499
   }
 }
