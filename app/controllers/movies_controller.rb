@@ -4,6 +4,11 @@ class MoviesController < ApplicationController
     @movies = Movie.all
   end
 
+  def show
+    @movie = Movie.find_by(slug: params[:slug])
+    @genres = @movie.genres
+  end
+
   def new
     @director = Director.find(params[:director_id])
     @movie = Movie.new
@@ -15,9 +20,6 @@ class MoviesController < ApplicationController
     redirect_to movie_path(slug: movie.slug)
   end
 
-  def show
-    @movie = Movie.find_by(slug: params[:slug])
-  end
 
   private
 

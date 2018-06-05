@@ -14,6 +14,9 @@ describe 'visitor visits genre index page' do
   it 'it cannot create new genre' do
     genre1 = Genre.create(name: 'action')
     genre2 = Genre.create(name: 'romance')
+    director1 = Director.create(name:'Bob')
+    movie1 = genre1.movies.create(title: 'Movie One', description: 'great film', rating: 5, director_id: director1.id)
+
 
     visit genres_path
 
