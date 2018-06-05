@@ -197,6 +197,7 @@
         null,
         1,
         1,
+        1,
         null,
         null,
         1,
@@ -590,11 +591,11 @@
         1,
         null,
         1,
-        49,
+        53,
         null,
         null,
         1,
-        36,
+        39,
         null,
         null,
         1,
@@ -707,7 +708,7 @@
         1,
         null,
         1,
-        46,
+        50,
         null,
         null,
         1,
@@ -718,7 +719,7 @@
         null,
         null,
         1,
-        2,
+        5,
         null,
         null
       ],
@@ -732,11 +733,23 @@
         1,
         null,
         1,
-        1,
+        3,
         null,
         null
       ],
-      "/Users/tywest/turing/2module/challenges/movie_mania_1803/app/controllers/admin/categories_controller.rb": [
+      "/Users/tywest/turing/2module/challenges/movie_mania_1803/app/controllers/admin/genres_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
         1,
         1,
         null,
@@ -750,6 +763,12 @@
         null,
         1,
         2,
+        null,
+        null
+      ],
+      "/Users/tywest/turing/2module/challenges/movie_mania_1803/app/controllers/admin/categories_controller.rb": [
+        1,
+        1,
         null,
         null
       ],
@@ -900,6 +919,6 @@
         null
       ]
     },
-    "timestamp": 1528212462
+    "timestamp": 1528214049
   }
 }
