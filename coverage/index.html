@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-06-05T09:54:09-06:00">2018-06-05T09:54:09-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-06-05T09:58:38-06:00">2018-06-05T09:58:38-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.71
+         1.73
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>50</b> files in total.
-    <b>424</b> relevant lines. 
-    <span class="green"><b>424</b> lines covered</span> and
+    <b>51</b> files in total.
+    <b>439</b> relevant lines. 
+    <span class="green"><b>439</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -97,7 +97,7 @@
         <td>12</td>
         <td>12</td>
         <td>0</td>
-        <td>11.2</td>
+        <td>12.2</td>
       </tr>
       
       <tr>
@@ -127,7 +127,7 @@
         <td>3</td>
         <td>3</td>
         <td>0</td>
-        <td>1.7</td>
+        <td>2.3</td>
       </tr>
       
       <tr>
@@ -217,7 +217,7 @@
         <td>12</td>
         <td>12</td>
         <td>0</td>
-        <td>9.8</td>
+        <td>10.1</td>
       </tr>
       
       <tr>
@@ -486,6 +486,16 @@
         <td>12</td>
         <td>8</td>
         <td>8</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#6b134d559e7290aa16e600b48e8c6c6f475edd1f" class="src_link" title="spec/features/visitor/visitor_visits_genre_index_spec.rb">spec/features/visitor/visitor_visits_genre_index_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>24</td>
+        <td>15</td>
+        <td>15</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -1010,8 +1020,8 @@
           <code class="ruby">  def set_cart</code>
         </li>
       
-        <li class="covered" data-hits="50" data-linenumber="8">
-          <span class="hits">50</span>
+        <li class="covered" data-hits="52" data-linenumber="8">
+          <span class="hits">52</span>
           
           <code class="ruby">    @cart ||= Cart.new(session[:cart])</code>
         </li>
@@ -1034,14 +1044,14 @@
           <code class="ruby">  def current_user</code>
         </li>
       
-        <li class="covered" data-hits="34" data-linenumber="12">
-          <span class="hits">34</span>
+        <li class="covered" data-hits="38" data-linenumber="12">
+          <span class="hits">38</span>
           
           <code class="ruby">    @current_user = nil</code>
         </li>
       
-        <li class="covered" data-hits="34" data-linenumber="13">
-          <span class="hits">34</span>
+        <li class="covered" data-hits="38" data-linenumber="13">
+          <span class="hits">38</span>
           
           <code class="ruby">    if session[:user_id]</code>
         </li>
@@ -1076,8 +1086,8 @@
           <code class="ruby">  def current_admin?</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="19">
-          <span class="hits">5</span>
+        <li class="covered" data-hits="7" data-linenumber="19">
+          <span class="hits">7</span>
           
           <code class="ruby">    current_user &amp;&amp; current_user.admin?</code>
         </li>
@@ -1367,8 +1377,8 @@
           <code class="ruby">  def index</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="4">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="5" data-linenumber="4">
+          <span class="hits">5</span>
           
           <code class="ruby">    @genres = Genre.all</code>
         </li>
@@ -2114,8 +2124,8 @@
           <code class="ruby">  def initialize(initial_contents)</code>
         </li>
       
-        <li class="covered" data-hits="53" data-linenumber="5">
-          <span class="hits">53</span>
+        <li class="covered" data-hits="55" data-linenumber="5">
+          <span class="hits">55</span>
           
           <code class="ruby">    @contents = initial_contents || Hash.new(0)</code>
         </li>
@@ -2138,8 +2148,8 @@
           <code class="ruby">  def total_item_count</code>
         </li>
       
-        <li class="covered" data-hits="39" data-linenumber="9">
-          <span class="hits">39</span>
+        <li class="covered" data-hits="41" data-linenumber="9">
+          <span class="hits">41</span>
           
           <code class="ruby">    @contents.values.sum</code>
         </li>
@@ -5712,6 +5722,169 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="6b134d559e7290aa16e600b48e8c6c6f475edd1f">
+  <div class="header">
+    <h3>spec/features/visitor/visitor_visits_genre_index_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>15</b> relevant lines. 
+      <span class="green"><b>15</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &#39;visitor visits genre index page&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &#39;can see all genres&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    genre1 = Genre.create(name: &#39;action&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    genre2 = Genre.create(name: &#39;romance&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    visit genres_path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to have_content(genre1.name)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to have_content(genre2.name)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &#39;it cannot create new genre&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    genre1 = Genre.create(name: &#39;action&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    genre2 = Genre.create(name: &#39;romance&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    visit genres_path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to have_content(genre1.name)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to have_content(genre2.name)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to_not have_content(&#39;Create New Genre&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
           
           
           <code class="ruby">end</code>
