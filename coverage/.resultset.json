@@ -590,11 +590,11 @@
         1,
         null,
         1,
-        48,
+        49,
         null,
         null,
         1,
-        35,
+        36,
         null,
         null,
         1,
@@ -707,7 +707,7 @@
         1,
         null,
         1,
-        45,
+        46,
         null,
         null,
         1,
@@ -726,6 +726,14 @@
         1,
         1,
         1,
+        null
+      ],
+      "/Users/tywest/turing/2module/challenges/movie_mania_1803/app/controllers/genres_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/tywest/turing/2module/challenges/movie_mania_1803/app/controllers/admin/categories_controller.rb": [
@@ -892,6 +900,6 @@
         null
       ]
     },
-    "timestamp": 1528212245
+    "timestamp": 1528212462
   }
 }
