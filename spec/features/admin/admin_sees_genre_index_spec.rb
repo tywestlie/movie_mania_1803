@@ -23,7 +23,7 @@ describe 'admin visits genre index' do
 
     visit genres_path
 
-    expect(page).to have_content('Create New Genre')
+    expect(page).to have_field('genre[name]')
   end
 
   it 'visits new genre path' do
@@ -34,10 +34,12 @@ describe 'admin visits genre index' do
 
     comedy = 'comedy'
 
-    visit new_admin_genre_path
+    visit genres_path
+    save_and_open_page
 
     fill_in  'genre_name', with: comedy
     click_on 'Create Genre'
+
 
     expect(current_path).to eq(genres_path)
     expect(page).to have_content(comedy)

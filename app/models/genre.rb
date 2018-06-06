@@ -6,7 +6,4 @@ class Genre < ApplicationRecord
     movies.average(:rating)
   end
 
-  def highest_rated_film
-    movies.find
-  end
 end

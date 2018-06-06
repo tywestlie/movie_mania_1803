@@ -16,7 +16,7 @@ Rails.application.routes.draw do
 
   namespace :admin do
     resources :categories, only: [:index]
-    resources :genres
+    resources :genres, only: [:new, :create, :index, :show]
   end
 
   resources :genres, only: [:index, :show]

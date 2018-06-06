@@ -547,6 +547,9 @@
         1,
         null,
         null,
+        1,
+        null,
+        null,
         null,
         null
       ],
@@ -756,6 +759,7 @@
         1,
         4,
         null,
+        null,
         null
       ],
       "/Users/tywest/turing/2module/challenges/movie_mania_1803/spec/models/movie_spec.rb": [
@@ -848,7 +852,7 @@
         null,
         null,
         1,
-        8,
+        9,
         null,
         null
       ],
@@ -856,7 +860,8 @@
         1,
         null,
         1,
-        6,
+        7,
+        7,
         null,
         null,
         1,
@@ -868,7 +873,7 @@
       "/Users/tywest/turing/2module/challenges/movie_mania_1803/app/controllers/admin/genres_controller.rb": [
         1,
         1,
-        1,
+        0,
         null,
         null,
         1,
@@ -1055,6 +1060,6 @@
         null
       ]
     },
-    "timestamp": 1528217499
+    "timestamp": 1528298796
   }
 }
